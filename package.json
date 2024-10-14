@@ -1,7 +1,7 @@
 {
-    "name": "my-hello-world-package",
-    "version": "1.0.0",
-    "description": "A simple TypeScript package that says 'Hello World'",
+    "name": "semantify",
+    "version": "1.0.2",
+    "description": "semantify",
     "main": "dist/index.js",
     "types": "dist/index.d.ts",
     "scripts": {
@@ -12,9 +12,9 @@
     },
     "repository": {
       "type": "git",
-      "url": "git+https://github.com/your-username/my-hello-world-package.git"
+      "url": "git+https://github.com/mrivasperez/semantify.git"
     },
-    "author": "Your Name",
+    "author": "Miguel Rivas Perez",
     "license": "MIT",
     "devDependencies": {
       "@types/node": "^18.11.9",
