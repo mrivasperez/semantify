@@ -1,5 +1,5 @@
 # semantify
-**A semantic analysis package for text documents and messages.**
+**A semantic analysis package for text.**
 
 `semantify` is an NPM package designed for performing semantic analysis on text documents and long user messages. It utilizes keyword-based filtering and analysis techniques to gain insights into the content's context, intent, and purpose. This library is ideal for workflow automation scenarios where understanding the meaning behind text is crucial.
 
