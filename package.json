@@ -1,0 +1,24 @@
+{
+    "name": "my-hello-world-package",
+    "version": "1.0.0",
+    "description": "A simple TypeScript package that says 'Hello World'",
+    "main": "dist/index.js",
+    "types": "dist/index.d.ts",
+    "scripts": {
+      "build": "tsc && npm run build:cjs && npm run build:esm",
+      "build:cjs": "tsc --module commonjs --outDir dist",
+      "build:esm": "tsc --module esnext --outDir dist/esm",
+      "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/your-username/my-hello-world-package.git"
+    },
+    "author": "Your Name",
+    "license": "MIT",
+    "devDependencies": {
+      "@types/node": "^18.11.9",
+      "typescript": "^4.9.4",
+      "tsc-watch": "^5.0.3"
+    }
+  }
